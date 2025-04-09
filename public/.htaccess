@@ -1,0 +1,10 @@
+RewriteEngine on
+ErrorDocument 404 https://mynteo.com/404.html
+
+<filesMatch ".(css|js)$">
+  Header set Cache-Control "max-age=2629800, public"
+</filesMatch>
+
+<filesMatch ".(jpg|jpeg|ico|png|svg)$">
+  Header set Cache-Control "max-age=31557600, public"
+</filesMatch>

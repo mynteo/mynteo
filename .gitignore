@@ -1,0 +1,20 @@
+# Node
+node_modules/
+*.log
+
+# Astro
+.astro/
+dist/
+
+# Environment variables
+.env
+.env.production
+
+# IDEs and editors
+.idea/
+.vscode/
+.zed/
+
+# System Files
+.DS_Store
+Thumbs.db

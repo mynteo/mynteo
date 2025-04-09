@@ -1,0 +1,15 @@
+---
+const { title, description } = Astro.props;
+---
+
+<header class="flex flex-col md:flex-row md:items-center gap-4">
+  <div class="w-16 h-16">
+    <img class="rounded-full" src="/thumbnail.png" alt="mynteo logo" width="512" height="512" />
+  </div>
+  <div class="flex flex-col leading-relaxed">
+    <h1 class="text-xl font-bold text-zinc-800 dark:text-zinc-200">
+      {title}
+    </h1>
+    <p class="text-zinc-600 dark:text-zinc-400">{description}</p>
+  </div>
+</header>

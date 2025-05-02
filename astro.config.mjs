@@ -7,6 +7,6 @@ export default defineConfig({
   site: "https://mynteo.com",
   integrations: [sitemap()],
   vite: {
-    plugins: [tailwindcss()]
-  }
+    plugins: [tailwindcss()],
+  },
 });
